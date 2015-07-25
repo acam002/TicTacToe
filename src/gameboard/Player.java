@@ -1,0 +1,34 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package gameboard;
+
+/**
+ *
+ * @author KCISCisco
+ */
+public class Player {
+    
+    private String name;
+    private int score;
+
+    public Player(String name, int score) {
+        this.name = name;
+        this.score = score;
+    }
+
+    public String getName() {
+        return name;
+    }
+    
+    public int getScore() {
+        return score;
+    }
+    
+    public void addPoint(){
+        score++;
+    }
+}
+
+
